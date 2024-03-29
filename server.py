@@ -1,7 +1,7 @@
 import socket
 
 def server():
-    host = '10.8.0.1'  # Server's IP address
+    host = '130.233.21.187'  # Server's IP address
     port = 65432        # Port to listen on (non-privileged ports are > 1023)
 
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
